@@ -6,7 +6,11 @@ __pycache__/
 *.egg-info/
 build/
 dist/
-outputs/
+# Keep generated scratch files out of Git, but retain the three portfolio PNGs.
+outputs/*
+!outputs/spiral.png
+!outputs/tube_3d.png
+!outputs/parameter_sweep.png
 .idea/
 .vscode/
 
